@@ -32,7 +32,7 @@ long solve (int n, int a[][MAXN]) {
         }
     for (j = 1; j <= n; j++)
         retval = max(retval, b[n][j]);
-    printarr(n+1,b);
+    //printarr(n+1,b);
     return retval;
 }
 
